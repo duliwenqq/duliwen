@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.login {
+  width: 100%;
+  height: 570px;
+  background: url("./img/login-bg.04425a08.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.login .left {
+  flex: 5;
+}
+
+.login .left p {
+  color: white;
+  font-size: 100px;
+  margin: 10%;
+}
+
+.login .left span {
+  color: white;
+  margin: 10%;
+}
+
+.login .right {
+  flex: 5;
+}
+
+.login .right .ipt {
+  width: 75%;
+  height: 500px;
+  background: white;
+  margin: 10%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login .right .ipt .top {
+  flex: 4;
+  text-align: center;
+  margin: 10%;
+}
+
+.login .right .ipt .top span {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  line-height: 100px;
+  background: #686666;
+  border-radius: 15px;
+  font-size: 40px;
+  color: white;
+}
+
+.login .right .ipt .top p {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 25px;
+  color: #686666;
+}
+
+.login .right .ipt .bot {
+  flex: 6;
+}
+
+.login .right .ipt .bot input {
+  width: 70%;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 70px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+}
+
+.login .right .ipt .bot input:focus {
+  outline: none;
+}
+
+.login .right .ipt .bot .yz {
+  width: 70%;
+  height: 50px;
+  line-height: 50px;
+  margin-left: 70px;
+  margin-top: 5px;
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+  display: flex;
+}
+
+.login .right .ipt .bot .yz input {
+  flex: 8;
+  border: none;
+  width: 100%;
+  height: 100%;
+  margin-left: -5px;
+  margin-top: -1px;
+}
+
+.login .right .ipt .bot .yz input:focus {
+  outline: none;
+}
+
+.login .right .ipt .bot .yz p {
+  flex: 2;
+  border: 1px solid #ccc;
+}
+
+.login .right .ipt .bot .yz p span {
+  display: inline-block;
+  width: 70px;
+  line-height: 30px;
+  line-height: 30px;
+  color: pink;
+  text-align: center;
+}
+
+.login .right .ipt .bot button {
+  width: 70%;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 70px;
+  margin-top: 15px;
+  border: none;
+  background: skyblue;
+  border-radius: 15px;
+  color: white;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: #eee;
+}
+
+.box .left {
+  width: 210px;
+  height: 100%;
+  background: #001529;
+  display: flex;
+  flex-direction: column;
+}
+
+.box .left .logo {
+  width: 100%;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+
+.box .left .logo span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 50%;
+  display: inline-block;
+  background: white;
+}
+
+.box .left .logo span img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.box .left .logo p {
+  margin-top: 15px;
+}
+
+.box .left div button {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.box .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.box .right .top {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: white;
+  display: flex;
+}
+
+.box .right .top p {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-top: 14px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.box .right .top p span {
+  position: absolute;
+  right: 0;
+}
+
+.box .right .top .active {
+  background: skyblue;
+  color: white;
+}
+
+.box .right .bot {
+  flex: 1;
+}
+
+.settings {
+  width: 100%;
+  height: 100%;
+}
+
+.settings .logo {
+  width: 100%;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 5%;
+}
+
+.settings .logo span {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.settings .logo span img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.settings .logo p {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.settings button {
+  margin-left: 55px;
+}
+
+.Dai {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Dai .to {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.Dai p {
+  display: inline-block;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.Dai button {
+  margin-left: 20px;
+}
+
+.Dai Table {
+  width: 80%;
+}
